@@ -19,7 +19,7 @@ namespace Project3.Controllers
 
         public MessageController(ApplicationdbContext repository, IMapper mapper)
         {
-            _repository = new MessageServices(repository);
+            _repository =new MessageServices(repository) 
             _mapper = mapper;
         }
 
